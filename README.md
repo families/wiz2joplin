@@ -1,4 +1,18 @@
 Migrate from WizNote to Joplin.
+## 快速操作
+### 环境
+- Python版本：Python 3.11.1
+- wiz版本：windows经典版 ver4.14.3 [网页](https://www.wiz.cn/zh-cn/downloads-windows.html)[下载](https://url.wiz.cn/u/windows)
+### 步骤
+- 解压zip包到桌面，文件夹名称为wiz2joplin
+- 为知笔记目录：F:\Wiz_note\Data（根据自己的笔记路径修改）
+- 打开cmd依次输入下面命令
+```
+python -m venv C:\Users\Administrator\Desktop\wiz2joplin\env\w2j\venv --clear
+C:\Users\Administrator\Desktop\wiz2joplin\env\w2j\venv\Scripts\activate.bat
+pip install w2j --no-cache-dir或者python setup.py install
+w2j -o C:\Users\Administrator\Desktop\wiz2joplin\wiz2joplin_output -w F:\Wiz_note\Data -u 你的账号邮箱xxx@qq.com -t 你的joplin的token -a
+```
 
 ## !!!CAUTION!!!!
 
