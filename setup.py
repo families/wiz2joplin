@@ -57,7 +57,7 @@ setup(
     version=find_version('w2j', '__init__.py'),
     author = "zrong",
     author_email = "zrongzrong@gmail.com",
-    url = "https://github.com/zrong/wiz2joplin",
+    url = "https://github.com/families/wiz2joplin",
     description = "A tool for migrating from WizNote to Joplin.",
     long_description=read('README.md'),
     long_description_content_type='text/markdown',
