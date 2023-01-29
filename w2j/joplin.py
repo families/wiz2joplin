@@ -370,7 +370,7 @@ class JoplinDataAPI(object):
             'id': id,
             'title': title,
             'parent_id': parent_id,
-            'markup_language': 1,
+            'markup_language': 2,
         }
         if source_url:
             kwargs['source_url'] = source_url
