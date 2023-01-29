@@ -146,7 +146,7 @@ class JoplinNote(object):
     source_url: str = None
 
     # 1 代表 markdown，2代表 html
-    markup_language: int = 1
+    markup_language: int = 2
 
     location: str = ''
     parent_id: str = ''
