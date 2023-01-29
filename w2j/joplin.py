@@ -379,9 +379,10 @@ class JoplinDataAPI(object):
         else:
             # 使用 joplin 的功能将所有的 html 都转换成 markdown
             kwargs['body_html'] = body
-            kwargs['convert_to'] = 'markdown'
+            kwargs['convert_to'] = 'html'
             kwargs['source_command'] = {
-                'name': 'simplifiedPageHtml',
+                'name': 'completePageHtml',
+                'preProcessFor': 'html'
             }
 
         query = self._build_query()
